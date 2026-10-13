@@ -1,0 +1,10 @@
+{
+  "adsEnabled": true,
+  "interstitialEnabled": true,
+  "interstitialFreeCompletions": 3,
+  "interstitialEveryCompletions": 3,
+  "minGapMinutes": 5,
+  "interstitialDailyCap": 3,
+  "rewardedEnabled": true,
+  "rewardedDailyCap": 8
+}

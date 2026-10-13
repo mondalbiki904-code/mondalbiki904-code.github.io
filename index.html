@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Public home page of https://mondalbiki904-code.github.io/ (the Play listing
+     "Website"). Published with tool/publish_site.sh. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HushColor</title>
+  <meta name="description" content="HushColor: a calm color-by-number game with original artwork.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    :root { --bg: #F7F4EE; --ink: #2F3A34; --soft: #5E6B64; --accent: #4E7A64; --card: #FFFFFF; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #1C211E; --ink: #ECEFEA; --soft: #B5BFB8; --accent: #8FC3A6; --card: #252B27; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 56px 16px; text-align: center; }
+    img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
+    h1 { font-size: 36px; line-height: 1.15; margin: 20px 0 4px; }
+    .tagline { color: var(--accent); font-size: 19px; margin: 0 0 20px; }
+    p { margin: 0 0 14px; }
+    .card { background: var(--card); border-radius: 16px; padding: 18px; margin: 28px 0; }
+    .soon { color: var(--soft); }
+    nav { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 8px; }
+    a { color: var(--accent); }
+    footer { color: var(--soft); font-size: 14px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+<main>
+  <img src="icons/Icon-192.png" alt="HushColor app icon">
+  <h1>HushColor</h1>
+  <p class="tagline">Calm color by number</p>
+  <p>Pick a picture, tap a number and watch original artwork bloom under your fingers.
+    No lives, no penalties, no pressure, and no ads while you paint.</p>
+  <div class="card">
+    <p class="soon">Coming soon to Google Play.</p>
+    <nav>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="mailto:mondalbiki904@gmail.com">Contact</a>
+    </nav>
+  </div>
+  <footer>© 2026 HushColor</footer>
+</main>
+</body>
+</html>
